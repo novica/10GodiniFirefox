@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html class="fade nonumbers" manifest="moosecon.manifest" lang="mk"><!-- 
+  ^ You can control a few things with the <html> element's classes:
+
+  "fade"      - smooth fade between slides
+  "nonumbers" - remove the slide numbering after the progress bar
+--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>10 години Firefox - Новица Наков</title>
+  <!-- 
+    ^ Don't forget a good title - they show up as bookmarks and in Google 
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1274, user-scalable=no">
+  <link rel="stylesheet" href="10godini_files/style.css">
+  <style type="text/css">
+    /* Add your own styles here */
+    .talkdescription {
+      font-size: 12px;
+      color: #fff;
+      width: 80%;
+    }
+    .full .talkdescription {
+      display: none;
+    }
+    .slide blockquote.lots {
+      font-size: 30px;
+    }
+    .demourl { 
+      bottom: 20px;
+    }
+    .quotesource::before {
+      content: '~';
+    }
+    #reveal {
+      float: right;
+      margin: 20px 0 0 20px;
+      background: #fff;
+      position: relative;
+    }
+    #reveal img {
+      width: 200px;
+      z-index: 5;
+      display: block;
+      opacity: 0.5;
+      -webkit-transition: 2s;
+      -moz-transition: 2s;
+      -o-transition: 2s;
+      transition: 2s;
+    }
+    #reveal:hover img {
+      opacity: 1;
+    }
+    .full #recycle h2 {
+      margin-top: -40px;
+    }
+    ul.lots li {
+      float: left;
+      width: 50%;
+    }
+  </style>
+</head>
+<body style="transform: none;" class="list">
+
+  <header class="caption">
+    <h1>10 години Firefox</h1>
+    <p class="footer">Новица Наков, <a href="http://mozilla.mk">mozilla.mk</a></p>
+  </header>
+  <aside class="talkdescription">
+    <p>This slide deck is using the shower system - roll over the 
+previews to see the notes and click any slide to go into presentation 
+mode. Then use keys to navigate. <button onclick="goFullScreen()">Go fullscreen</button></p>
+    <p>Презентацијата направена по урнекот на Брајан Кинг - <a href="
+    https://people.mozilla.org/~bking/presentations/oscal2014/open.html">врска</a>.</p>
+    <p class="abstract">
+      <strong>Резиме: </strong>
+       Mozilla и светската заедница ја славата 10 годишнината на Firefox. Не е доцна и вие да се прикличите во изградбата на подобра мрежа.
+    </p>
+  </aside>
+
+<!-- 
+  The following is a slide, it needs a class of "slide" and it doesn't 
+  hurt to keep the right semantic elements in there, too.
+  IMPORTANT: each slide needs its own unique ID - this will become its
+  URL and this is how this slide system works!
+-->
+
+  <div id="cover" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>Отворената визија на Mozilla</h2>
+      </header>
+      <img src="10godini_files/mozilla_wordmark_300dpi.jpg" alt="Mozilla" class="middle">
+      <small class="byline">
+        Новица Наков, Скопје 17.11.2014
+      </small>
+    <footer class="notes">
+      In this talk I will give some background on the Mozilla community,
+ and show the opportunities and how to contribute to Mozilla.
+    </footer>
+    </section>
+  </div><button class="cb">x</button></div>
+
+  <!-- <div id="agenda" class="slide"><div>
+    <section>
+      <header>
+        <h2>Agenda</h2>
+      </header>
+      <ul>
+        <li>Who is Mozilla
+          <ul>
+            <li>What we do</li>
+            <li>Why we do it</li>
+          </ul>  
+        </li>
+        <li>Community Building
+          <ul>
+            <li>How to help / get involved</li>
+            <li>Communities</li>
+          </ul>  
+        </li>
+        <li>The Web We Want</li>
+        <li>Questions and Answers</li>
+      </ul> 
+      <footer class="notes">
+      </footer>
+    </section>
+  </div><button class="cb">x</button></div>-->
+
+  <div id="mozilla-is" class="slide"><div>
+    <section>
+      <header>
+        <h2>Mozilla е…</h2>
+      </header>
+      <blockquote>
+        глобална заедница на луѓе која што верува дека <strong>отвореноста</strong>, <strong>иновациите</strong>, и <strong>можностите</strong> се клучни за зачувување на здравјето на Интернетот.
+      </blockquote>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div><button class="cb">x</button></div>
+
+  <div id="firefox" class="slide"><div>
+    <section>
+      <header>
+        <h2>Firefox полни 10 години</h2>
+      </header>
+        <img src="10godini_files/Fx-logo.png" class="middle" alt="Firefox" width="400">
+      <footer class="notes">
+      </footer>
+    </section>
+  </div><button class="cb">x</button></div>
+
+  <div id="newfirefox" class="slide cover h"><div>
+    <section>
+      <header>
+                Опции за корисниците
+      </header>
+      <img src="10godini_files/newfirefox.jpg" alt="The New Firefox" class="middle shadow">
+      <small class="credits">
+      </small> 
+    <footer class="notes">
+      
+    </footer>
+    </section>
+  </div><button class="cb">x</button></div>
+
+  <div id="firefoxos" class="slide"><div>
+    <section>
+      <header>
+        <h2>Го направивме...</h2>
+      </header>
+        <img src="10godini_files/FxOS.png" class="middle" alt="Firefox OS" width="440">
+      <footer class="notes">
+      </footer>
+    </section>
+  </div><button class="cb">x</button></div>
+
+  <div id="webmaker" class="slide"><div>
+    <section>
+      <header>
+        <h2>...и го започнавме...</h2>
+      </header>
+      <img src="10godini_files/Mozilla-Webmaker-logo.png" alt="webmaker" class="middle shadow" >
+      <small class="credits">
+        
+      </small> 
+    <footer class="notes">
+      Teach the Web!
+    </footer>
+    </section>
+  </div><button class="cb">x</button></div>
+
+  <div id="manifesto" class="slide"><div>
+    <section>
+      <header>
+        <h2>Манифестот на Mozilla</h2>
+      </header>
+      <ul class="inner">
+        <li class="active">Интернетот е <strong>глобален јавен ресурс</strong> што мора да остане <strong>отворен</strong> и <strong>пристапен</strong>.</li>
+        <li class="active">Интернетот мора да ги <strong>збогатува животите на поединците</strong>.</li>
+        <li class="active">Личната <strong>безбедност</strong> и <strong>приватност</strong> на Интерент е <strong>елементарна</strong> потреба и не може да се третира како избор.</li>
+        <li class="active">Индивидуалците мора да ја имаат <strong>способноста за промена</strong> на Интернетот и <strong>личното искуство</strong> на него.</li>
+      </ul>
+      <footer class="notes">
+        Манифестот е нашиот водич, зеаднички верувања кои го водат тоа што го работиме.
+      </footer>
+    </section>
+  </div><button class="cb">x</button></div>
+
+  <div id="15" class="slide"><div>
+    <section>
+      <header>
+        <h2></h2>
+      </header>
+      <img src="10godini_files/mozlove.png" alt="15 Years" class="middle shadow">
+    <footer class="notes">
+      We LOVE the web! Born in Netscape, maker of the first web browser Mosaic-&gt;Netscape Communications-&gt;AOL-&gt;Mozilla
+    </footer>
+    </section>
+  </div><button class="cb">x</button></div>
+
+<!--
+  <div id="builders" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>Community Builders</h2>
+      </header>
+      <img src="pictures/Cbt_toronto.jpg" alt="Builders" class="middle shadow">
+    <footer class="notes">
+      Hence, we are prioritising community building in the organisation. A core group across all functional areas has been formed.
+      Our goal is for all Mozillians to be community builders.
+    </footer>
+    </section>
+  </div></div>
+-->
+
+  <div id="who" class="slide"><div>
+    <section>
+      <header>
+        <h2></h2>
+      </header>
+      <img src="10godini_files/infographic_5.jpg" alt="Who" class="middle shadow">
+    <footer class="notes">
+      Заедницата се состои од сите нас.
+    </footer>
+    </section>
+  </div><button class="cb">x</button></div>
+
+  <!-- <div id="functional" class="slide"><div>
+    <section>
+      <header>
+        <h2>Focus Areas</h2>
+      </header>
+      <ul>
+        <li>Coding</li>
+        <li>l10n</li>
+        <li>Marketing</li>
+        <li>Communications / PR</li>
+        <li>Documentation</li>
+        <li>Community Building</li>
+        <li>Webmaker</li>
+        <li>And many more...</li>
+      </ul>
+    <footer class="notes">
+      There are many areas of the Mozilla project that you can become involved in.
+    </footer>
+    </section>
+  </div><button class="cb">x</button></div>-->
+
+  <!--<div class="slide" id="Entry"><div>
+    <section>
+      <header>
+        <h2>Hearing About Mozilla</h2>
+      </header>
+      <ul>
+        <li>Social Media</li>
+        <li>Project pages, e.g. SUMO</li>
+        <li>Events</li>
+        <li>Get Involved page (/contribute)</li>
+        <li>Local community sites</li>
+        <li>Word of mouth, emails, donation drives, ...</li>
+      </ul>
+    <footer class="notes">
+      Here are some of the ways you may have entered the Mozilla project.
+    </footer>
+    </section>
+  </div><button class="cb">x</button></div>-->
+
+  <div id="contribute" class="slide cover h"><div>
+    <section>
+      <header>
+        
+      </header>
+      <img src="10godini_files/GetInvolved2.png" alt="Get Involved" class="middle shadow">
+      <small class="credits">
+        <a href="http://www.mozilla.org/contribute/">http://www.mozilla.org/contribute/</a>
+      </small> 
+    <footer class="notes">
+      
+    </footer>
+    </section>
+  </div><button class="cb">x</button></div>
+
+ <!-- <div id="whatcan" class="slide"><div>
+    <section>
+      <header>
+        <h2>What Can I Do For Mozilla?</h2>
+      </header>
+      <img src="10godini_files/whatcan.png" alt="What Can I Do For Mozilla?" class="middle shadow">
+      <small class="credits">
+        <a href="http://whatcanidoformozilla.org/">http://whatcanidoformozilla.org</a>
+      </small> 
+    <footer class="notes">
+      Meander around to find something on a whim
+    </footer>
+    </section>
+  </div><button class="cb">x</button></div>-->
+
+   <div id="regional" class="slide"><div>
+    <section>
+      <header>
+        <h2>Регионални заедници</h2>
+      </header>
+      <img src="10godini_files/mkcommunity.jpg" alt="Macedonian Community" class="left shadow" width="600" >
+      <!--<img src="pictures/alab-embracing-globe.jpg" alt="antarctica" height="300" class="left shadow">
+      <img src="10godini_files/mozilla_antarctica.png" alt="antarctica" class="right shadow" height="380">-->
+      <small class="credits">
+        <a href="https://www.mozilla.org/contact/communities/">All communities</a>
+      </small> 
+    <footer class="notes">
+      We have regional communities around the world, covering all continents. 
+    </footer>
+    </section>
+  </div><button class="cb">x</button></div>
+
+  <!--<div id="reps" class="slide w"><div>
+    <section>
+      <header>
+        <h2>Mozilla Reps</h2>
+      </header>
+      <img src="10godini_files/show2.jpg" alt="Reps" class="middle shadow">
+      <small class="credits">
+        <a href="https://reps.mozilla.org/about/">More information...</a>
+      </small> 
+    <footer class="notes">
+      The Mozilla Reps program provides a simple framework and specific 
+tools to help volunteer Mozillians become official representatives of 
+Mozilla in their region. Anyone 18 or older who is passionate and 
+knowledgeable about Mozilla and who is ready to dive deeper into the 
+project can sign-up to the program. The Mozilla Reps program helps push 
+responsibility and authority further outwards, to more Mozillians, 
+making it much easier for volunteers organize and/or attend events, 
+recruit and mentor new contributors, and better support their local 
+communities.
+    </footer>
+    </section>
+  </div><button class="cb">x</button></div>-->
+
+<!--
+  <div class="slide" id="Funnels"><div>
+    <section>
+      <header>
+        <h2>Contribute Page - 2 Funnels</h2>
+      </header>
+      <ul>
+        <li>By functional area</li>
+        <li>By locale</li>
+      </ul>
+    <footer class="notes">
+      On the form, you can specify a functional area you are interested in, and the email will be directed to stewards in that those areas. Inquiries from localised Contribute pages will go directly to the local community.
+    </footer>
+    </section>
+  </div></div>
+
+  <div class="slide cover h" id="15contribute"><div>
+    <section>
+      <img src="pictures/15contribute.png" height="400" class="middle shadow" alt="15 Facts Contribute Page">
+    <footer class="notes">
+      This is what the page currently looks like. As part of the 15 years anniversary, we have 15 facts. Below is the form. Below that (not shown) is a list of functional areas where you can click through and find out more.
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="path" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>Paths</h2>
+      </header>
+      <img src="pictures/codingpath.png" alt="Reps" class="middle shadow">
+    <footer class="notes">
+      An example path of contribution in a particular functional area.
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="pathways" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>Badge Pathways</h2>
+      </header>
+      <img src="pictures/badgepathways.gif" alt="Badge Pathways" class="middle shadow">
+      <small class="credits">
+        <a href="http://carlacasilli.wordpress.com/2013/03/25/badge-pathways-part-1-the-paraquel/">Read the full post</a>
+      </small> 
+    <footer class="notes">
+      Hopping around the badge grid. "Badge pathways provide people with opportunities to make decisions based in personal agency, to define steps that may seem more like hops, and to think about ways to do things that aren’t sequential or even seemingly rational."
+    </footer>
+    </section>
+  </div></div>
+-->
+
+  <div id="jungle" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>Искахирај патека</h2>
+      </header>
+      <img src="10godini_files/jungle.jpg" alt="Reps" class="middle shadow">
+      <small class="credits">
+        <a href="http://www.flickr.com/photos/spool32/4543748407/">Picture by Will Clayton on Flickr</a>
+      </small>
+    <footer class="notes">
+      Кога патеката не е чиста и очигледна, направете ваша.
+    </footer>
+    </section>
+  </div><button class="cb">x</button></div>
+
+<!--
+  <div id="metrics" class="slide cover h"><div>
+    <section>
+      <header>
+        <h2>Metrics</h2>
+      </header>
+      <img src="pictures/metrics.png" alt="Metrics" class="middle shadow">
+      <small class="credits">
+        <a href="http://arewegrowingyet.com/">arewegrowingyet.com</a>
+      </small> 
+    <footer class="notes">
+      Our contributor metrics are not very sophisticated yet, but we are getting there. This is a big priority as we move into 2014.
+      Not only will it let us be able to see the health of our community, but it will feed into recognition and reward.
+    </footer>
+    </section>
+  </div></div>
+-->
+
+  <div class="slide" id="workopen"><div>
+    <section>
+      <header>
+        <h2>Работа на отворено</h2>
+      </header>
+      <ul>
+        <li>Состаноци на заедницата во хаклаб</li>
+        <li>Секој понеделник на air.mozilla.org</li>
+        <li>IRC</li>
+        <li>Јавни поштенски листи</li>
+        <li>Јавни тимски состаноци</li>
+        <li>Култура на споделување</li>
+      </ul>
+      <small class="credits">
+        <a href="https://wiki.mozilla.org/Working_open">https://wiki.mozilla.org/Working_open</a>
+      </small> 
+    <footer class="notes">
+      Default to open
+    </footer>
+    </section>
+  </div><button class="cb">x</button></div>
+
+  <!--<div id="badges" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>Open Badges</h2>
+      </header>
+      <img src="10godini_files/badges.png" alt="Reps" class="middle shadow">
+      <small class="credits">
+        <a href="https://badges.mozilla.org/">badges.mozilla.org</a>
+      </small> 
+    <footer class="notes">
+      Badges are one form of recognition.
+    </footer>
+    </section>
+  </div><button class="cb">x</button></div>-->
+
+  <div id="shirts" class="slide"><div>
+    <section>
+      <header>
+        <h2>Маици :) </h2>
+      </header>
+      <img src="10godini_files/jump.jpg" alt="Reps" class="middle shadow">
+    <footer class="notes">
+      And we have some of the best t-shirts available to mankind.
+    </footer>
+    </section>
+  </div><button class="cb">x</button></div>
+
+  <!--<div id="mozillians" class="slide"><div>
+    <section>
+      <header>
+        <h2>Community Directory</h2>
+      </header>
+      <img src="10godini_files/Moziljani.png" alt="Mozillians" class="middle shadow" width="750">
+      <small class="credits">
+        <a href="https://mozillians.org/">mozillians.org</a>
+      </small> 
+    <footer class="notes">
+      mozillians.org, our community directory.
+    </footer>
+    </section>
+  </div><button class="cb">x</button></div>-->
+
+  <!--<div id="fun" class="slide"><div>
+    <section>
+      <header>
+        <h2>Fun</h2>
+      </header>
+      <img src="10godini_files/karaoke.jpg" alt="Mozillians Singing" class="middle shadow">
+      <small class="credits">
+        <a href="https://flic.kr/p/gvGoML">Picture by Liz Henry on Flickr</a>
+      </small> 
+    <footer class="notes">
+      Meander around to find something on a whim
+    </footer>
+    </section>
+  </div><button class="cb">x</button></div>-->
+
+  <!--<div id="iama" class="slide"><div>
+    <section>
+      <header>
+        <h2>I am a Mozillian</h2>
+      </header>
+       <div role="button" tabindex="0" title="https://people.mozilla.org/~bking/presentations/oscal2014/pictures/iama.webm" class="middle" style="background: url(&quot;chrome://flashblock/content/flash.png&quot;) no-repeat scroll center center transparent ! important; min-width: 32px ! important; min-height: 32px ! important; width: 32px; height: 32px; border: 1px solid rgb(223, 223, 223); cursor: pointer; overflow: hidden; display: block; visibility: visible ! important; opacity: 100 ! important; box-sizing: border-box;" bgactive="url(chrome://flashblock/content/flashplay.png) no-repeat center" bginactive="url(chrome://flashblock/content/flash.png) no-repeat center"></div>
+        <p class="demourl">
+          <a href="http://youtu.be/LuyBGkbzTjs">Watch on Youtube</a>
+        </p>
+    <footer>
+      
+    </footer>
+    </section>
+  </div><button class="cb">x</button></div>-->
+
+  <div id="couldbe" class="slide"><div>
+    <section>
+      <header>
+        <h2>Иднината на мрежата?</h2>
+      </header>
+      <img src="10godini_files/NetNue.jpg" alt="Er, Net Neutrality, Not" class="middle shadow" height="500">
+      <small class="credits">
+        <a href="http://www.reddit.com/r/pics/comments/9yj1f/heres_a_new_scenario_i_just_created_illustrating/">Image credit</a>
+      </small> 
+    <footer class="notes">
+      
+    </footer>
+    </section>
+  </div><button class="cb">x</button></div>
+
+  <div id="want" class="slide"><div>
+    <section>
+      <header>
+        <h2>Мрежата што ја сакаме</h2>
+      </header>
+      <img src="10godini_files/webwewant.png" alt="The Web We Want" class="middle shadow" height="400">
+      <small class="credits">
+        <a href="https://webwewant.mozilla.org/">https://webwewant.mozilla.org</a>
+      </small> 
+    <footer class="notes">
+      We asked our users what web they wanted, here is what they answered.
+    </footer>
+    </section>
+  </div><button class="cb">x</button></div>
+
+  <div id="ride" class="slide"><div>
+    <section>
+      <header>
+        <h2>Патувањето не е завршено!</h2>
+      </header>
+      <img src="10godini_files/ride.gif" alt="There is no earthly way of knowing which direction we are going" class="middle" height="450">
+      <footer class="notes">
+        Working with Mozilla is sometimes a wild ride. The web is an 
+existing, world-wide distribution platform and reaches millions of 
+people already with many more to come. You have an opportunity to have a
+ direct impact on millions of people.
+      </footer>
+    </section>
+  </div><button class="cb">x</button></div>
+
+  <div id="thanks" class="slide"><div>
+    <section>
+      <header>
+        <h2>Фала и придружете се!</h2>
+      </header>
+        <figure class="frame middle swing">
+        <img src="10godini_files/thats-all-fox.jpg" alt="that's all firefox" width="600">
+        </figure>
+      <ul class="oneline demourl">
+        <li>Новица Наков</li>
+        <li></li>
+        <li>Базирано на <a href="http://people.mozilla.com/%7Ebking/presentations/oscal2014/open.html">
+          http://people.mozilla.com/~bking/presentations/oscal2014/open.html
+        </a></li>
+      </ul>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div><button class="cb">x</button></div>
+
+  <!-- <div class="progress"><div></div></div> -->
+  <!-- 
+    ^ don't like a progress bar? just delete this DIV
+  -->
+  <script src="10godini_files/script.js"></script>
+  <!-- Copyright © 2010–2012 Vadim Makeev — pepelsbey.net -->
+
+</body></html>
